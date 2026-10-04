@@ -1,12 +1,11 @@
-# DART-ES: Evolution Strategies Fine-Tuning on GSM8K
+# DART-ES: Difficulty-Aware Reweighting and Targeted Replay for Fine-Tuning LLMs with Evolution Strategies
 
 This repository contains DART-ES, a multi-GPU evolution-strategies (ES)
-training implementation for fine-tuning a Qwen2.5 causal language model on
-GSM8K. DART-ES combines three data-adaptation modules:
+training implementation for fine-tuning LLMs. DART-ES combines three data-adaptation modules:
 
 1. difficulty-aware sample weighting based on an exponential moving average
    of per-sample pass rates;
-2. prioritized replay of rarely solved samples; and
+2. prioritized replay of rarely solved samples;
 3. online updates of sample difficulty statistics from the ES population.
 
 ## Repository layout
