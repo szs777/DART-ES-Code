@@ -68,10 +68,6 @@ outputs are written below `outputs/` by default.
 
 ## Evaluate on GSM8K
 
-The evaluation script and processed test split are copied without changes from
-[ESSAM](https://github.com/szs777/ESSAM/tree/1aee406adaf9c3346726ee777522d8fb034c0b1f).
-They use the dependencies and worker utilities already included in this repository.
-
 Run from the repository root on a CUDA-capable machine:
 
 ```bash
