@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+
+# Experiment outputs
+outputs/
+runs/
+ray_results/
+*.log
+events.out.tfevents.*
+
+# Model checkpoints and other large generated artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Temporary files
+tmp/
+*.tmp
